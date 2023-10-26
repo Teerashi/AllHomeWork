@@ -1,0 +1,123 @@
+:root {
+    --text-color: red;
+}
+
+.RGBtext {
+    animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: var(--text-color);
+    }
+    25% {
+        color: green;
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: var(--text-color);
+    }
+}
+
+.color-changing-text p {
+    color: var(--text-color);
+} 
+
+
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    border: solid 10px rgb(164, 14, 233);
+    box-sizing: border-box;
+    text-align: center;
+    background-color: green;
+    width: 100%;
+    height: 200px;
+    margin: 1px;
+    padding: auto;
+
+    position: fixed;
+
+}
+
+header h1 {
+    font-size: 50px;
+    color: rgb(222, 233, 70);
+}
+
+header> p {
+    font-size: 40px;
+    color: rgb(222, 233, 70);
+}
+
+main {
+    box-sizing: border-box;
+    border: solid 5px rgb(164, 14, 233);
+    margin: auto;
+    padding-top: 197px;
+}
+
+.img {
+    float: left;
+    border: 2px solid black;
+    bottom: 100px;
+}
+
+
+.HomeWork {
+    border: 1px solid red;
+    box-sizing: border-box;
+    height: 255px;
+    background-color: aqua;
+    margin: 1px;
+    padding: auto;
+    
+}
+
+.text {
+    color: rgb(78, 52, 221);
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    border: solid 10px rgb(164, 14, 233);
+    box-sizing: border-box;
+    text-align: center;
+    background-color: green;
+    width: 100%;
+    height: 300px;
+    margin: 1px;
+    padding: auto;
+}
+
+footer h2 {
+    font-size: 50px;
+    color: rgb(222, 233, 70);
+}
+
+footer span {
+    font-size: 40px;
+    color: rgb(222, 233, 70);
+
+}
+
+footer button {
+    position: relative;
+    top: 20px;
+}
+
+
+
